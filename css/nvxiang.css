@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+main .shangpin{width: 100%;height: 650px;}
+main .shangpin .top{font-size: 14px;margin-top: 10px;}
+main .shangpin .top a{color: #000;}
+main .shangpin .con{width: 100%;height: 620px;margin-top: 10px;}
+main .shangpin .con .left{float: left;width: 420px;}
+main .shangpin .con .left .main-pic{width: 420px;height: 420px;background: #F7F7F7;}
+main .shangpin .con .left .main-pic img{width: 340px;height: 420px;margin-left: 40px;}
+
+main .shangpin .con .left .pic-list{margin: 5px 0 0 26px;}
+main .shangpin .con .left .pic-list li{width: 68px;height: 70px;background: #F7F7F7;float: left;margin-left: 20px;position: relative;}
+main .shangpin .con .left .pic-list li img{width: 60px;height: 70px;margin-left: 4px;}
+
+main .shangpin .con .left .bianma{width:420px;font-size: 14px;color: #999;margin-top: 15px;height: 30px;line-height: 30px;}
+main .shangpin .con .left .bianma button{float: right;border: 1px solid #ccc;border-radius: 3px;background: #FAFAFA;width: 100px;height: 30px;}
+main .shangpin .con .left .bianma img{width: 14px;height: 14px;}
+main .shangpin .con .left .bianma a{color: #999;}
+
+main .shangpin .con .left .left-bottom{border-top: 1px dashed #ccc;width: 420px;margin-top: 15px;}
+main .shangpin .con .left .left-bottom li{float: left; width: 140px;height: 30px;margin-top: 20px;}
+main .shangpin .con .left .left-bottom li img{width: 30px;height: 30px;padding-right: 10px;vertical-align: middle;}
+main .shangpin .con .left .left-bottom li a{color: #BCB7BA;font-size: 15px;}
+
+main .shangpin .con .right{width: 500px;float: right;}
+main .shangpin .con .right .title .t1{font-size: 14px;color: #999;margin: 10px;}
+main .shangpin .con .right .title .price{width: 450px;height: 70px;background: #FAF5F8;color: #EF0278;font-size: 14px;padding: 15px;}
+main .shangpin .con .right .title .price .xian{font-size: 40px;font-weight: bold;}
+main .shangpin .con .right .title .price p{color: #EF0278;}
+main .shangpin .con .right .title .price .yuan{text-decoration: line-through;color: #000;}
+
+main .shangpin .con .right .con{font-size: 14px;color: #666;height: 300px;}
+main .shangpin .con .right .con select{width: 200px;height: 30px;}
+main .shangpin .con .right .con input{margin:5px;width: 70px;height: 30px;border: 1px solid #ccc;text-align: center;}
+main .shangpin .con .right .con button{font-size:18px;margin:15px 0 10px 30px;width: 150px;height: 50px;text-align: center;line-height: 50px;background: #EF0278;color: #fff;border: 1px solid #EF0278;border-radius: 3px;}
+main .shangpin .con .right .con p{margin-left: 30px;}
+main .shangpin .con .right .right-bottom p{font-size: 14px;height: 80px;line-height:80px;border-top: 1px dashed #ccc;}
+
+
+main .xiangqing{width: 100%;height: 13700px;}
+main .xiangqing .top-list{width: 100%;height: 40px;border: 1px solid #E7E7E7;border-bottom: 3px solid #000;}
+main .xiangqing .top-list li{float: left; width: 100px;height:40px;line-height:40px;text-align: center; border-right: 1px solid #E7E7E7;}
+main .xiangqing .top-list li:hover{border-bottom: 3px solid #EF0278;}
+main .xiangqing .top-list li:hover a{color: #EF0278;}
+main .xiangqing .top-list li a{font-size: 15px;color: #000;}
+
+main .xiangqing .size{width: 100%;height: 880px;}
+main .xiangqing .size .top,main .xiangqing .detail .top,main .xiangqing .image .top{font-size: 30px;color: #EF0278;margin-top: 20px;}
+main .xiangqing .size .top .line,main .xiangqing .detail .top .line,main .xiangqing .image .top .line{background: url(../img/nzxq/line.png)repeat-x;width: 100%;height: 5px;margin: 15px 0;}
+main .xiangqing .size .tips{font-size: 14px;height: 100px;}
+
+main .xiangqing .my .mz{width: 100%;height: 350px;border: 1px solid #ccc;margin-top: 20px;}
+main .xiangqing .my .mz img{margin: 6px 8px;float: left;}
+main .xiangqing .my .mz .body-date{margin-top: 50px;}
+main .xiangqing .my .mz .body-date li{float: left;width: 180px;padding-top: 20px;padding-left: 40px;}
+main .xiangqing .my .mz .body-date li input{width: 80px;height: 30px;border: 1px solid #ccc;border-radius: 3px;}
+main .xiangqing .my .mz button{width: 100px;height: 30px;background: #EF0278;color: #fff;text-align: center;line-height: 30px;border: 1px solid #EF0278;border-radius: 3px;margin: 30px 0 0 200px;}
+main .xiangqing .duizhao{width: 100%;height: 500px;margin: 30px 0;}
+main .xiangqing .duizhao table th,main .xiangqing .duizhao table td{border: 1px solid #ccc;} 
+main .xiangqing .duizhao table th{width: 160px;background: #DBDBDB;height: 30px;}
+main .xiangqing .duizhao table td{width: 160px;text-align: center;height: 30px;line-height: 30px;}
+
+main .xiangqing .detail ul{float: left;font-size: 14px;margin-bottom: 20px;}
+main .xiangqing .detail ul li{height: 40px;line-height: 40px;}
+main .xiangqing .detail ul:nth-of-type(2) li,main .xiangqing .detail ul:nth-of-type(4) li{height: 39px;}
+main .xiangqing .detail ul:nth-of-type(1),main .xiangqing .detail ul:nth-of-type(3){width:90px;text-align: right;background: #F5F5F5;font-weight: bold;}
+main .xiangqing .detail ul:nth-of-type(2) li,main .xiangqing .detail ul:nth-of-type(4) li{border: 1px solid #ccc;border-top: none;}
+main .xiangqing .detail ul:nth-of-type(2) li:first-child,main .xiangqing .detail ul:nth-of-type(4) li:first-child{border-top: 1px solid #ccc;}
+main .xiangqing .image .zhanshipic{width: 750px;margin: 0 auto;}
+
+
+main .zixun{width: 100%;height: 750px;}
+main .zixun .title{width: 100%;height: 50px;background: #EAE8EB;line-height: 50px;padding-left: 20px;}
+main .zixun .tuihuo{width: 900px;margin: 0 auto;}
+main .zixun .tuihuo img{margin-top: 20px;}

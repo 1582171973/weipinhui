@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/*banner*/
+#banner{width: 100%;height: 360px; background: url(../img/imagesnvzhuang/nvbanner.jpg)no-repeat center center;}
+
+
+/*main*/
+main .hot{width: 100%;height: 400px;}
+main .hot .top{width: 378px;height: 47px;background: url(../img/imagesnvzhuang/hot.png)no-repeat;margin: 30px auto;}
+main .hot .con{width: 100%;height: 305px;border: 1px solid #FF6F8A;}
+main .hot .con ul:nth-of-type(1){float: left;}
+main .hot .con ul:nth-of-type(1) li{width: 130px;height: 50px;background: #FF6F8A; line-height: 50px;text-align: center;border-bottom: 1px solid #fff;}
+main .hot .con ul:nth-of-type(1) li:last-child{border-bottom: none;}
+main .hot .con ul:nth-of-type(1) li:first-child{background: none;}
+main .hot .con ul:nth-of-type(1) li:first-child a{color: #FF6F8A;}
+main .hot .con ul:nth-of-type(1) li:hover{background: #FAFAFA;}
+main .hot .con ul:nth-of-type(1) li:hover a{color: #FF6F8A;}
+main .hot .con ul:nth-of-type(1) li a{color: #fff;}
+
+main .hot .con ul:nth-of-type(2){height:305px;width:870px;margin-left: 155px;}
+main .hot .con ul:nth-of-type(2) li{float: left;width: 130px;height: 130px;margin: 15px 19px;}
+
+main .shangxin{width: 100%;height: 550px;}
+main .shangxin .top{width: 100%;height: 100px; background: url(../img/imagesnvzhuang/jinritemai.png)no-repeat center center;}
+main .shangxin .sale-list{width: 100%;font-size: 14px;}
+main .shangxin .sale-list ul li{width: 320px;float: left;margin:15px 0 0 10px;}
+main .shangxin .sale-list ul li .z1{float: right;padding:10px 0 0 15px;}
+main .shangxin .sale-list ul li .z2{float: left;padding:10px 0 0 15px;}
+main .shangxin .sale-list ul li .z2 span{font-size: 18px;font-weight:bold; color: #EF0278;}
+
+main .yugao{width: 100%;height: 700px;}
+main .yugao .top{width: 100%;height: 100px; background: url(../img/imagesnvzhuang/mingriyugao.png)no-repeat center center;}
+main .yugao .sale-list{width: 100%;font-size: 14px;}
+main .yugao .sale-list ul li{width: 480px;float: left;margin:15px 0 0 10px;}
+main .yugao .sale-list ul li img{width: 480px;}
+main .yugao .sale-list ul li .z1{float: right;padding:10px 0 0 15px;}
+main .yugao .sale-list ul li .z2{float: left;padding:10px 0 0 15px;}
+main .yugao .sale-list ul li .z2 span{font-size: 18px;font-weight:bold; color: #EF0278;}
+
+main .more{width: 100%;height: 350px;}
+main .more .top{width: 120px;height: 40px;background: #EF0278;line-height: 40px;text-align: center;color: #fff;}
+main .more .sale-list ul li{width: 240px;float: left;margin:15px 0 0 5px;}
+main .more .sale-list ul li img{width: 240px;border: 1px solid #ccc;}
